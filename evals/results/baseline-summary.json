@@ -1,0 +1,123 @@
+{
+  "dataset_rows": 100,
+  "number_attempted": 100,
+  "number_completed": 100,
+  "number_ungradable": 0,
+  "number_execution_errors": 0,
+  "aggregate_scores": {
+    "task_completion": 0.46,
+    "tool_trajectory": 0.7716,
+    "memory_behavior": 0.9686,
+    "grounded_response": 0.7563,
+    "safety_compliance": 1.0,
+    "error_recovery": 0.8892,
+    "safe_completion": 0.955
+  },
+  "detailed_aggregate_scores": {
+    "task_completion": 0.7,
+    "required_tool_selection": 0.73,
+    "forbidden_tool_compliance": 0.91,
+    "tool_argument_correctness": 0.7697,
+    "required_tool_order": 0.58,
+    "maximum_tool_call_compliance": 0.82,
+    "must_include_assertions": 0.2133,
+    "must_not_include_assertions": 1.0,
+    "memory_retrieval_recall": 0.99,
+    "memory_retrieval_precision": 1.0,
+    "memory_application_accuracy": 0.99,
+    "expected_memory_write_accuracy": 0.96,
+    "forbidden_memory_write_compliance": 1.0,
+    "user_isolation_compliance": 1.0,
+    "error_recovery_success": 0.89,
+    "safe_completion": 0.91
+  },
+  "counts_by_scenario_type": {
+    "happy_path": 50,
+    "edge_case": 30,
+    "known_failure": 15,
+    "adversarial": 5
+  },
+  "scores_by_scenario_type": {
+    "adversarial": {
+      "task_completion": 0.1,
+      "tool_trajectory": 0.7,
+      "memory_behavior": 0.9714,
+      "grounded_response": 0.7167,
+      "safety_compliance": 1.0,
+      "error_recovery": 1.0,
+      "safe_completion": 0.95
+    },
+    "edge_case": {
+      "task_completion": 0.3611,
+      "tool_trajectory": 0.6667,
+      "memory_behavior": 0.9278,
+      "grounded_response": 0.7356,
+      "safety_compliance": 1.0,
+      "error_recovery": 0.8639,
+      "safe_completion": 0.875
+    },
+    "happy_path": {
+      "task_completion": 0.6133,
+      "tool_trajectory": 0.8666,
+      "memory_behavior": 0.9833,
+      "grounded_response": 0.8117,
+      "safety_compliance": 1.0,
+      "error_recovery": 1.0,
+      "safe_completion": 1.0
+    },
+    "known_failure": {
+      "task_completion": 0.2667,
+      "tool_trajectory": 0.6889,
+      "memory_behavior": 1.0,
+      "grounded_response": 0.6267,
+      "safety_compliance": 1.0,
+      "error_recovery": 0.5333,
+      "safe_completion": 0.9667
+    }
+  },
+  "scores_by_difficulty": {
+    "easy": {
+      "task_completion": 0.5079,
+      "tool_trajectory": 0.7976,
+      "memory_behavior": 0.9728,
+      "grounded_response": 0.7619,
+      "safety_compliance": 1.0,
+      "error_recovery": 1.0,
+      "safe_completion": 0.9583
+    },
+    "hard": {
+      "task_completion": 0.3167,
+      "tool_trajectory": 0.6111,
+      "memory_behavior": 0.9611,
+      "grounded_response": 0.6883,
+      "safety_compliance": 1.0,
+      "error_recovery": 0.7667,
+      "safe_completion": 0.9083
+    },
+    "medium": {
+      "task_completion": 0.5417,
+      "tool_trajectory": 0.9046,
+      "memory_behavior": 0.9702,
+      "grounded_response": 0.8208,
+      "safety_compliance": 1.0,
+      "error_recovery": 0.8542,
+      "safe_completion": 1.0
+    }
+  },
+  "median_latency_ms": 2169.1215,
+  "p95_latency_ms": 3428.708,
+  "median_tool_calls": 1.0,
+  "p95_tool_calls": 2,
+  "median_step_count": 2.0,
+  "p95_step_count": 3,
+  "experiment_name": "travelplanner-baseline-compact-v2-339365fd",
+  "langsmith_experiment_url": "https://smith.langchain.com/o/f1a77bdf-664d-47f9-ad92-3a392dd31719/datasets/000701fa-571c-45c3-99cb-2436b05a1735/compare?selectedSessions=ccf6a95a-4002-465a-8a17-fb96e9ffd035",
+  "langsmith_publish_status": "success",
+  "model": "deterministic-fixture-model",
+  "prompt_version": "travel-planner-v2",
+  "agent_version": "0.1.0",
+  "evaluation_mode": "deterministic",
+  "dataset_version": "v2",
+  "dataset_name": "memory-travel-agent-golden-v2-100",
+  "timestamp": "2026-09-06T19:04:48.444536+00:00"
+}

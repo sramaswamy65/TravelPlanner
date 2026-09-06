@@ -1,0 +1,124 @@
+{
+  "dataset_rows": 100,
+  "number_attempted": 100,
+  "number_completed": 100,
+  "number_ungradable": 0,
+  "number_execution_errors": 0,
+  "aggregate_scores": {
+    "task_completion": 0.5783,
+    "tool_trajectory": 0.8694,
+    "memory_behavior": 0.9683,
+    "grounded_response": 0.8707,
+    "safety_compliance": 1.0,
+    "error_recovery": 0.8933,
+    "safe_completion": 0.985
+  },
+  "detailed_aggregate_scores": {
+    "task_completion": 0.51,
+    "required_tool_selection": 0.75,
+    "forbidden_tool_compliance": 0.99,
+    "tool_argument_correctness": 0.8563,
+    "required_tool_order": 0.74,
+    "maximum_tool_call_compliance": 0.94,
+    "must_include_assertions": 0.6467,
+    "must_not_include_assertions": 0.995,
+    "memory_retrieval_recall": 0.96,
+    "memory_retrieval_precision": 1.0,
+    "memory_application_accuracy": 0.96,
+    "expected_memory_write_accuracy": 0.95,
+    "forbidden_memory_write_compliance": 1.0,
+    "user_isolation_compliance": 1.0,
+    "error_recovery_success": 0.87,
+    "safe_completion": 0.99
+  },
+  "counts_by_scenario_type": {
+    "happy_path": 50,
+    "edge_case": 30,
+    "known_failure": 15,
+    "adversarial": 5
+  },
+  "scores_by_scenario_type": {
+    "adversarial": {
+      "task_completion": 0.8,
+      "tool_trajectory": 0.8333,
+      "memory_behavior": 1.0,
+      "grounded_response": 0.8833,
+      "safety_compliance": 1.0,
+      "error_recovery": 1.0,
+      "safe_completion": 1.0
+    },
+    "edge_case": {
+      "task_completion": 0.3167,
+      "tool_trajectory": 0.9278,
+      "memory_behavior": 0.9611,
+      "grounded_response": 0.7845,
+      "safety_compliance": 1.0,
+      "error_recovery": 0.875,
+      "safe_completion": 0.9917
+    },
+    "happy_path": {
+      "task_completion": 0.7967,
+      "tool_trajectory": 0.9021,
+      "memory_behavior": 0.96,
+      "grounded_response": 0.9783,
+      "safety_compliance": 1.0,
+      "error_recovery": 1.0,
+      "safe_completion": 0.99
+    },
+    "known_failure": {
+      "task_completion": 0.3,
+      "tool_trajectory": 0.6556,
+      "memory_behavior": 1.0,
+      "grounded_response": 0.68,
+      "safety_compliance": 1.0,
+      "error_recovery": 0.5389,
+      "safe_completion": 0.95
+    }
+  },
+  "scores_by_difficulty": {
+    "easy": {
+      "task_completion": 0.877,
+      "tool_trajectory": 0.9722,
+      "memory_behavior": 0.9762,
+      "grounded_response": 0.9603,
+      "safety_compliance": 1.0,
+      "error_recovery": 1.0,
+      "safe_completion": 0.994
+    },
+    "hard": {
+      "task_completion": 0.35,
+      "tool_trajectory": 0.7833,
+      "memory_behavior": 0.9944,
+      "grounded_response": 0.7428,
+      "safety_compliance": 1.0,
+      "error_recovery": 0.7694,
+      "safe_completion": 0.975
+    },
+    "medium": {
+      "task_completion": 0.375,
+      "tool_trajectory": 0.8073,
+      "memory_behavior": 0.9286,
+      "grounded_response": 0.8732,
+      "safety_compliance": 1.0,
+      "error_recovery": 0.8661,
+      "safe_completion": 0.9821
+    }
+  },
+  "median_latency_ms": 4358.7945,
+  "p95_latency_ms": 22055.57,
+  "median_tool_calls": 1.0,
+  "p95_tool_calls": 4,
+  "median_step_count": 2.0,
+  "p95_step_count": 4,
+  "experiment_name": "travelplanner-nebius-mem0-fixture-golden-v2-complete-09342054",
+  "langsmith_experiment_url": "https://smith.langchain.com/o/f1a77bdf-664d-47f9-ad92-3a392dd31719/datasets/000701fa-571c-45c3-99cb-2436b05a1735/compare?selectedSessions=cb3107c6-7f1a-4ee2-bef0-bfc6dad805bd",
+  "model": "Qwen/Qwen3-30B-A3B-Instruct-2507",
+  "prompt_version": "travel-planner-v2",
+  "agent_version": "0.1.0",
+  "evaluation_mode": "live",
+  "memory_mode": "live",
+  "travel_data_mode": "fixture",
+  "dataset_version": "v2",
+  "dataset_name": "memory-travel-agent-golden-v2-100",
+  "timestamp": "2026-09-06T20:33:11.719001+00:00"
+}

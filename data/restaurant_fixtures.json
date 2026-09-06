@@ -1,0 +1,10 @@
+[
+  {"id":"boston-restaurant-001","name":"Boston Fixture Vegetarian Kitchen","city":"Boston","dietary_suitability":["vegetarian","vegan"],"cuisine":"Mediterranean","address":"Synthetic fixture address, Boston","rating":null,"review_count":null,"source":"evaluation_fixture"},
+  {"id":"boston-restaurant-002","name":"Boston Fixture General Table","city":"Boston","dietary_suitability":[],"cuisine":"American","address":"Synthetic fixture address, Boston","rating":null,"review_count":null,"source":"evaluation_fixture"},
+  {"id":"chicago-restaurant-001","name":"Chicago Fixture Vegetarian Kitchen","city":"Chicago","dietary_suitability":["vegetarian","vegan"],"cuisine":"Mediterranean","address":"Synthetic fixture address, Chicago","rating":null,"review_count":null,"source":"evaluation_fixture"},
+  {"id":"chicago-restaurant-002","name":"Chicago Fixture General Table","city":"Chicago","dietary_suitability":[],"cuisine":"American","address":"Synthetic fixture address, Chicago","rating":null,"review_count":null,"source":"evaluation_fixture"},
+  {"id":"san-francisco-restaurant-001","name":"San Francisco Fixture Vegan Kitchen","city":"San Francisco","dietary_suitability":["vegetarian","vegan"],"cuisine":"Californian","address":"Synthetic fixture address, San Francisco","rating":null,"review_count":null,"source":"evaluation_fixture"},
+  {"id":"san-francisco-restaurant-002","name":"San Francisco Fixture General Table","city":"San Francisco","dietary_suitability":[],"cuisine":"Californian","address":"Synthetic fixture address, San Francisco","rating":null,"review_count":null,"source":"evaluation_fixture"},
+  {"id":"kathmandu-restaurant-001","name":"Kathmandu Fixture Vegetarian Kitchen","city":"Kathmandu","dietary_suitability":["vegetarian","vegan"],"cuisine":"Nepali","address":"Synthetic fixture address, Kathmandu","rating":null,"review_count":null,"source":"evaluation_fixture"},
+  {"id":"kathmandu-restaurant-002","name":"Kathmandu Fixture General Table","city":"Kathmandu","dietary_suitability":[],"cuisine":"Nepali","address":"Synthetic fixture address, Kathmandu","rating":null,"review_count":null,"source":"evaluation_fixture"}
+]

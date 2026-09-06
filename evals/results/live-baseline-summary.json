@@ -1,0 +1,118 @@
+{
+  "aggregate_metrics": {
+    "case_count": 12,
+    "error_recovery_success": 0.6667,
+    "expected_memory_write_accuracy": 0.9167,
+    "forbidden_memory_write_compliance": 1.0,
+    "forbidden_tool_compliance": 0.9167,
+    "maximum_tool_call_compliance": 0.6667,
+    "median_latency_ms": 11073.38,
+    "median_step_count": 2.5,
+    "memory_application_accuracy": 0.5,
+    "memory_retrieval_precision": 0.9167,
+    "memory_retrieval_recall": 0.5,
+    "must_include_assertions": 0.5833,
+    "must_not_include_assertions": 0.9722,
+    "required_tool_order": 0.25,
+    "required_tool_selection": 0.3333,
+    "task_completion": 1.0,
+    "tool_argument_correctness": 0.5278,
+    "user_isolation_compliance": 1.0
+  },
+  "dataset_name": "memory-travel-agent-golden-v2",
+  "dataset_validation": {
+    "case_count": 12,
+    "dataset_version": "v2",
+    "difficulty_counts": {
+      "easy": 5,
+      "hard": 3,
+      "medium": 4
+    },
+    "difficulty_percentages": {
+      "easy": 41.67,
+      "hard": 25.0,
+      "medium": 33.33
+    },
+    "duplicate_case_ids": [],
+    "isolated_memory_user_ids": true,
+    "memory_case_count": 11,
+    "scenario_counts": {
+      "adversarial": 1,
+      "edge_case": 3,
+      "happy_path": 6,
+      "known_failure": 2
+    },
+    "scenario_percentages": {
+      "adversarial": 8.33,
+      "edge_case": 25.0,
+      "happy_path": 50.0,
+      "known_failure": 16.67
+    }
+  },
+  "dataset_version": "v2",
+  "experiment_prefix": "travelplanner-live-baseline-v2-final",
+  "failure_clusters": [
+    {
+      "affected_case_ids": [
+        "v2-01",
+        "v2-02",
+        "v2-03",
+        "v2-05",
+        "v2-06",
+        "v2-07",
+        "v2-08",
+        "v2-10",
+        "v2-12"
+      ],
+      "category": "agent failure",
+      "effect": "The agent may omit required evidence or request unnecessary/forbidden tools.",
+      "frequency": 9,
+      "frequency_percentage": 75.0,
+      "name": "Tool selection and trajectory"
+    },
+    {
+      "affected_case_ids": [
+        "v2-03",
+        "v2-04",
+        "v2-06",
+        "v2-07",
+        "v2-08",
+        "v2-09",
+        "v2-12"
+      ],
+      "category": "agent failure",
+      "effect": "The final response or write behavior may not satisfy the stated outcome.",
+      "frequency": 7,
+      "frequency_percentage": 58.33,
+      "name": "Response completion and recovery"
+    },
+    {
+      "affected_case_ids": [
+        "v2-01",
+        "v2-02",
+        "v2-04",
+        "v2-05",
+        "v2-06",
+        "v2-07"
+      ],
+      "category": "memory failure",
+      "effect": "Saved preferences may be missed, over-retrieved, or not reflected in the response.",
+      "frequency": 6,
+      "frequency_percentage": 50.0,
+      "name": "Memory retrieval and application"
+    }
+  ],
+  "langsmith_upload": {
+    "created": false,
+    "dataset_id": "69b371fd-25ec-4cd7-8e9b-c6fcf7a09858",
+    "dataset_name": "memory-travel-agent-golden-v2",
+    "inserted": 0,
+    "status": "success",
+    "unchanged": 12,
+    "updated": 0
+  },
+  "llm_judge_enabled": false,
+  "llm_judge_rubric_version": null,
+  "low_concurrency": true,
+  "mode": "live"
+}

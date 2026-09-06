@@ -1,0 +1,26 @@
+{
+  "boston": {
+    "2026-09-10": {"status":"success","city":"Boston","date":"2026-09-10","condition":"rain","temperature_max_c":18,"temperature_min_c":12,"precipitation_probability":80,"source":"evaluation_fixture"},
+    "2026-09-11": {"status":"success","city":"Boston","date":"2026-09-11","condition":"clear","temperature_max_c":21,"temperature_min_c":13,"precipitation_probability":10,"source":"evaluation_fixture"},
+    "2026-09-12": {"status":"success","city":"Boston","date":"2026-09-12","condition":"cloudy","temperature_max_c":19,"temperature_min_c":12,"precipitation_probability":25,"source":"evaluation_fixture"}
+  },
+  "chicago": {
+    "default": {"status":"success","city":"Chicago","date":"fixture-default","condition":"partly cloudy","temperature_max_c":22,"temperature_min_c":14,"precipitation_probability":20,"source":"evaluation_fixture"},
+    "2026-09-05": {"status":"success","city":"Chicago","date":"2026-09-05","condition":"rain","temperature_max_c":19,"temperature_min_c":13,"precipitation_probability":75,"source":"evaluation_fixture"},
+    "2026-09-12": {"status":"success","city":"Chicago","date":"2026-09-12","condition":"windy","temperature_max_c":22,"temperature_min_c":14,"precipitation_probability":15,"source":"evaluation_fixture"},
+    "2026-09-13": {"status":"success","city":"Chicago","date":"2026-09-13","condition":"clear","temperature_max_c":23,"temperature_min_c":15,"precipitation_probability":5,"source":"evaluation_fixture"},
+    "2026-09-14": {"status":"success","city":"Chicago","date":"2026-09-14","condition":"rain","temperature_max_c":19,"temperature_min_c":13,"precipitation_probability":75,"source":"evaluation_fixture"}
+  },
+  "san francisco": {
+    "default": {"status":"success","city":"San Francisco","date":"fixture-default","condition":"fog then sun","temperature_max_c":18,"temperature_min_c":12,"precipitation_probability":5,"source":"evaluation_fixture"},
+    "2026-09-14": {"status":"success","city":"San Francisco","date":"2026-09-14","condition":"cloudy","temperature_max_c":18,"temperature_min_c":12,"precipitation_probability":15,"source":"evaluation_fixture"},
+    "2026-09-15": {"status":"success","city":"San Francisco","date":"2026-09-15","condition":"fog","temperature_max_c":17,"temperature_min_c":11,"precipitation_probability":10,"source":"evaluation_fixture"},
+    "2026-09-16": {"status":"success","city":"San Francisco","date":"2026-09-16","condition":"clear","temperature_max_c":20,"temperature_min_c":12,"precipitation_probability":5,"source":"evaluation_fixture"}
+  },
+  "kathmandu": {
+    "2026-10-15": {"status":"success","city":"Kathmandu","date":"2026-10-15","condition":"sunny","temperature_max_c":24,"temperature_min_c":13,"precipitation_probability":5,"source":"evaluation_fixture"},
+    "2026-10-16": {"status":"success","city":"Kathmandu","date":"2026-10-16","condition":"rain","temperature_max_c":20,"temperature_min_c":14,"precipitation_probability":75,"source":"evaluation_fixture"},
+    "2026-10-17": {"status":"success","city":"Kathmandu","date":"2026-10-17","condition":"cloudy","temperature_max_c":22,"temperature_min_c":13,"precipitation_probability":25,"source":"evaluation_fixture"}
+  },
+  "timeout city": "SIMULATED_TIMEOUT"
+}

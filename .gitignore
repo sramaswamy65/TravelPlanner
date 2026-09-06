@@ -1,0 +1,13 @@
+.env
+.venv/
+.DS_Store
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.streamlit/secrets.toml
+output/plans/*/
+output/plans/*.md
+traces/
+*.db
+*.sqlite*

@@ -1,0 +1,292 @@
+{
+  "comparisons": [
+    {
+      "calibration_id": "judge-01",
+      "differences": {
+        "clarity": 0,
+        "constraint_satisfaction": 0,
+        "factual_groundedness": 0,
+        "no_unsupported_claims": 0,
+        "relevance": 0
+      },
+      "judge_scores": {
+        "clarity": 5,
+        "constraint_satisfaction": 5,
+        "factual_groundedness": 5,
+        "no_unsupported_claims": 5,
+        "rationale": "The candidate directly addresses the request for a rainy museum day in Chicago by selecting the Field Museum, which is located in Chicago and open from 09:00 to 17:00. The proposed visit time (10:00\u201313:00) falls within the museum's operating hours and avoids the afternoon, aligning with the rainy weather. All claims are supported by the tool evidence, and no unsupported assertions are made.",
+        "relevance": 5
+      },
+      "manual_scores": {
+        "clarity": 5,
+        "constraint_satisfaction": 5,
+        "factual_groundedness": 5,
+        "no_unsupported_claims": 5,
+        "relevance": 5
+      }
+    },
+    {
+      "calibration_id": "judge-02",
+      "differences": {
+        "clarity": 0,
+        "constraint_satisfaction": 0,
+        "factual_groundedness": 0,
+        "no_unsupported_claims": 0,
+        "relevance": 0
+      },
+      "judge_scores": {
+        "clarity": 5,
+        "constraint_satisfaction": 5,
+        "factual_groundedness": 5,
+        "no_unsupported_claims": 5,
+        "rationale": "The response directly addresses the request to plan a museum day in Chicago by starting at the Field Museum at 10:00, which aligns with the museum's operating hours (09:00-17:00). It incorporates the relaxed pace constraint by including time for breaks. All information is grounded in the provided tool evidence, and no unsupported claims are made. The response is clear and concise.",
+        "relevance": 5
+      },
+      "manual_scores": {
+        "clarity": 5,
+        "constraint_satisfaction": 5,
+        "factual_groundedness": 5,
+        "no_unsupported_claims": 5,
+        "relevance": 5
+      }
+    },
+    {
+      "calibration_id": "judge-03",
+      "differences": {
+        "clarity": 1,
+        "constraint_satisfaction": 0,
+        "factual_groundedness": 0,
+        "no_unsupported_claims": 0,
+        "relevance": 0
+      },
+      "judge_scores": {
+        "clarity": 5,
+        "constraint_satisfaction": 5,
+        "factual_groundedness": 5,
+        "no_unsupported_claims": 5,
+        "rationale": "The candidate response directly addresses the request to plan an outdoor day in San Francisco by suggesting a specific activity in Golden Gate Park, which is a well-known outdoor destination in the city. The tool evidence confirms that Golden Gate Park is open from 05:00 to 24:00, supporting the timing of the morning and early afternoon visit. The response is clear, concise, and does not make any claims beyond the provided evidence. All constraints (city: San Francisco) are satisfied.",
+        "relevance": 5
+      },
+      "manual_scores": {
+        "clarity": 4,
+        "constraint_satisfaction": 5,
+        "factual_groundedness": 5,
+        "no_unsupported_claims": 5,
+        "relevance": 5
+      }
+    },
+    {
+      "calibration_id": "judge-04",
+      "differences": {
+        "clarity": 0,
+        "constraint_satisfaction": 0,
+        "factual_groundedness": 0,
+        "no_unsupported_claims": 0,
+        "relevance": 0
+      },
+      "judge_scores": {
+        "clarity": 5,
+        "constraint_satisfaction": 5,
+        "factual_groundedness": 5,
+        "no_unsupported_claims": 5,
+        "rationale": "The candidate directly addresses the request to plan an art day in Chicago by suggesting a visit to the Art Institute of Chicago, which is the only art-related venue in the evidence. The proposed time (after it opens at 11:00) aligns with the provided hours (11:00-17:00). The response adheres to the category constraint (art), respects the time window, and makes no claims beyond the evidence. The suggestion is clear and concise.",
+        "relevance": 5
+      },
+      "manual_scores": {
+        "clarity": 5,
+        "constraint_satisfaction": 5,
+        "factual_groundedness": 5,
+        "no_unsupported_claims": 5,
+        "relevance": 5
+      }
+    },
+    {
+      "calibration_id": "judge-05",
+      "differences": {
+        "clarity": 0,
+        "constraint_satisfaction": 0,
+        "factual_groundedness": 0,
+        "no_unsupported_claims": 0,
+        "relevance": 0
+      },
+      "judge_scores": {
+        "clarity": 5,
+        "constraint_satisfaction": 5,
+        "factual_groundedness": 5,
+        "no_unsupported_claims": 5,
+        "rationale": "The response directly addresses the request to plan a Chicago activity without memory by suggesting a specific, well-known attraction\u2014Chicago Riverwalk. The suggestion is factually grounded in the provided tool evidence, which confirms the Riverwalk is open from 06:00 to 23:00. The response adheres to the constraint of not using memory, as no prior preferences are referenced. It is clear, concise, and makes no unsupported claims beyond the available evidence.",
+        "relevance": 5
+      },
+      "manual_scores": {
+        "clarity": 5,
+        "constraint_satisfaction": 5,
+        "factual_groundedness": 5,
+        "no_unsupported_claims": 5,
+        "relevance": 5
+      }
+    },
+    {
+      "calibration_id": "judge-06",
+      "differences": {
+        "clarity": 1,
+        "constraint_satisfaction": -2,
+        "factual_groundedness": 0,
+        "no_unsupported_claims": 0,
+        "relevance": 0
+      },
+      "judge_scores": {
+        "clarity": 5,
+        "constraint_satisfaction": 1,
+        "factual_groundedness": 1,
+        "no_unsupported_claims": 1,
+        "rationale": "The response is partially relevant but contains a factual error: the tool evidence states 'rain', yet the candidate claims 'It will be sunny.' This violates factual groundedness and constraint satisfaction. The mention of Navy Pier is relevant to Chicago, but the claim about it being open until midnight is unsupported by the evidence. The response is clear but makes unsupported claims about weather and hours.",
+        "relevance": 3
+      },
+      "manual_scores": {
+        "clarity": 4,
+        "constraint_satisfaction": 3,
+        "factual_groundedness": 1,
+        "no_unsupported_claims": 1,
+        "relevance": 3
+      }
+    },
+    {
+      "calibration_id": "judge-07",
+      "differences": {
+        "clarity": 2,
+        "constraint_satisfaction": 0,
+        "factual_groundedness": 0,
+        "no_unsupported_claims": 0,
+        "relevance": -1
+      },
+      "judge_scores": {
+        "clarity": 5,
+        "constraint_satisfaction": 1,
+        "factual_groundedness": 1,
+        "no_unsupported_claims": 1,
+        "rationale": "The candidate response is irrelevant as it suggests booking a steakhouse, which contradicts the vegetarian diet constraint. It fails to address the request for a vegetarian food day and violates the dietary restriction. No factual evidence is provided, and the response makes an unsupported claim by recommending a non-vegetarian restaurant.",
+        "relevance": 1
+      },
+      "manual_scores": {
+        "clarity": 3,
+        "constraint_satisfaction": 1,
+        "factual_groundedness": 1,
+        "no_unsupported_claims": 1,
+        "relevance": 2
+      }
+    },
+    {
+      "calibration_id": "judge-08",
+      "differences": {
+        "clarity": 2,
+        "constraint_satisfaction": 1,
+        "factual_groundedness": 1,
+        "no_unsupported_claims": 1,
+        "relevance": 0
+      },
+      "judge_scores": {
+        "clarity": 4,
+        "constraint_satisfaction": 2,
+        "factual_groundedness": 2,
+        "no_unsupported_claims": 2,
+        "rationale": "The response mentions the Field Museum, which is supported by the tool evidence, but claims six other museums can be visited in two hours, which is inconsistent with a relaxed pace. The claim that 'everything is free today' is unsupported by the evidence and not confirmed in the tool. The response lacks specific details about the other museums and does not clearly align with a relaxed pace. While the structure is clear, the factual and constraint violations reduce its reliability.",
+        "relevance": 3
+      },
+      "manual_scores": {
+        "clarity": 2,
+        "constraint_satisfaction": 1,
+        "factual_groundedness": 1,
+        "no_unsupported_claims": 1,
+        "relevance": 3
+      }
+    },
+    {
+      "calibration_id": "judge-09",
+      "differences": {
+        "clarity": 0,
+        "constraint_satisfaction": 0,
+        "factual_groundedness": 0,
+        "no_unsupported_claims": 0,
+        "relevance": 0
+      },
+      "judge_scores": {
+        "clarity": 5,
+        "constraint_satisfaction": 5,
+        "factual_groundedness": 5,
+        "no_unsupported_claims": 5,
+        "rationale": "The candidate directly addresses the travel request by stating the inability to create an itinerary due to the unsupported city, which aligns with the tool evidence indicating 'unsupported_city'. All constraints (city: Atlantis) are respected, and no unsupported claims are made. The response is clear, concise, and factually grounded in the provided evidence.",
+        "relevance": 5
+      },
+      "manual_scores": {
+        "clarity": 5,
+        "constraint_satisfaction": 5,
+        "factual_groundedness": 5,
+        "no_unsupported_claims": 5,
+        "relevance": 5
+      }
+    },
+    {
+      "calibration_id": "judge-10",
+      "differences": {
+        "clarity": 0,
+        "constraint_satisfaction": 0,
+        "factual_groundedness": 0,
+        "no_unsupported_claims": 0,
+        "relevance": 0
+      },
+      "judge_scores": {
+        "clarity": 5,
+        "constraint_satisfaction": 5,
+        "factual_groundedness": 5,
+        "no_unsupported_claims": 5,
+        "rationale": "The response directly addresses the travel request by acknowledging the inability to provide a weather-based plan due to a timeout. It remains factually grounded in the provided tool evidence (timeout error), satisfies the constraint of operating within the 'Timeout City' context, clearly communicates the limitation, and makes no unsupported claims about weather or activities.",
+        "relevance": 5
+      },
+      "manual_scores": {
+        "clarity": 5,
+        "constraint_satisfaction": 5,
+        "factual_groundedness": 5,
+        "factual_groundness": 5,
+        "no_unsupported_claims": 5,
+        "relevance": 5
+      }
+    }
+  ],
+  "dimension_rating_count": 50,
+  "disagreement_count": 4,
+  "disagreements": [
+    {
+      "calibration_id": "judge-03",
+      "score_differences": {
+        "clarity": 1
+      }
+    },
+    {
+      "calibration_id": "judge-06",
+      "score_differences": {
+        "clarity": 1,
+        "constraint_satisfaction": -2
+      }
+    },
+    {
+      "calibration_id": "judge-07",
+      "score_differences": {
+        "clarity": 2,
+        "relevance": -1
+      }
+    },
+    {
+      "calibration_id": "judge-08",
+      "score_differences": {
+        "clarity": 2,
+        "constraint_satisfaction": 1,
+        "factual_groundedness": 1,
+        "no_unsupported_claims": 1
+      }
+    }
+  ],
+  "exact_agreement": 0.82,
+  "example_count": 10,
+  "rubric_version": "itinerary-judge-v1",
+  "within_one_agreement": 0.94
+}
